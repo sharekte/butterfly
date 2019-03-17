@@ -2,8 +2,8 @@ package service
 
 import (
 	"github.com/pkg/errors"
-	. "spring/models"
-	. "spring/types"
+	. "butterfly/models"
+	. "butterfly/types"
 )
 
 type (
