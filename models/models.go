@@ -6,6 +6,7 @@ import (
 
 // DBHandler 数据库操作接口
 type (
+	DBHandler interface{
 		create() (completed bool, err error)
 		findByID(id int64) (record DBHandler, err error)
 		findByName(name string) (record DBHandler, err error)
