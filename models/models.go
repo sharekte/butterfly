@@ -1,7 +1,7 @@
 package models
 
 import (
-	. "spring/types"
+	. "butterfly/types"
 )
 
 // DBHandler 数据库操作接口
